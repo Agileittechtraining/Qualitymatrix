@@ -10,12 +10,12 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
-public String excelreading(String filename,String sheetname,int rownumber,int cellnumber) throws IOException {
+public String excelreading(String filename,String sheetname,int rownumber,int Cellnumber) throws IOException {
 	FileInputStream fi = new FileInputStream(filename);
 	XSSFWorkbook workbook = new XSSFWorkbook(fi);
 	Sheet sheet = workbook.getSheet(sheetname);
 	Row row = sheet.getRow(rownumber);
-	Cell cell = row.getCell(cellnumber);
+	Cell cell = row.getCell(Cellnumber);
 	String value = cell.getStringCellValue();
 	workbook.close();
 	return value;
