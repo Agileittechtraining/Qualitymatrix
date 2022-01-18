@@ -1,0 +1,114 @@
+;  -- Terminator / Semicolon
+{    }  -- Curly Braces ---Scope of a code
+[ ]  -- square bracket -- arrays
+( ) -- parenthesis -- Conditions
+// -- Comments - Information 
++ - * / % - arithmetic operators
+
+
+Print statements
+System.out.print
+
+Concept of variables
+3 types of variables
+1. Local Variables
+2. Static Global Variables /Static Instance
+3. Non Static Global Variables / Instance variables
+
+
+Instance of class / copy of class / mirror of class
+
+Temporary memory
+
+new Class name
+
+try and catch block
+try{
+
+}catch(exception e){
+
+}
+
+Writers & Readers --System Resources --> slowest
+1. File Writer  1 character at a time 
+2. Buffered Writer -- 1 line at a time
+
+1. File Reader - 1 character at a time
+2. Buffered Reader -- 1 line at a time.
+Streams Input stream & Output stream -- System Resources --> fastest
+
+
+
+1. v1 Login functionality
+
+Methods
+1. System Defined Methods
+2. User Defined Methods
+
+AccessModifiers Typeofmethod returntype nameofthemethod(){
+1. Public       1. Static     1. void     
+2. Private      2. Non static 2. non void 
+3. Protected
+4. Default
+
+
+}
+
+Local
+Static Global Variable
+Non Static Global variables
+
+
+try{
+
+}
+catch block
+
+
+2 types 
+1. checked  -- Java asks what to do? -- IO
+2. unchecked -- Java doesnt know what to do?
+
+
+Concept of Abstraction
+
+Data Hiding
+
+1. Interfacing  -- What to do?
+Methods without body
+2. Abstract Class -- What to do? & How to do?
+
+
+
+
+POM -- Project Object Model
+
+POM.xml
+
+Dependencies -- .jar -- java archive
+
+
+org  -- organisation
+qualitymatrix -- name of the company
+selenium -- name of the project
+com -- domain name
+demo -- package name
+
+
+artifact id -- > name of the project
+
+
+
+procedure of logging into facebook
+
+
+Wrapper classes
+
+byte    ---> Byte
+short   ---> Short
+int     -- Integer
+long  -- Long
+float -- Float
+double - Double
+boolean -- Boolean
+char - Character
